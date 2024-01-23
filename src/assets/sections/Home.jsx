@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../components/Button/Button'
 import { Paulo, Github, LinkedIn } from '../components/image'
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
           {/* Ordem modificada para exibir a imagem ao lado do título */}
           <div className='flex flex-col gap-2 justify-center items-center'>
             <p className='font-poppins text-lg text-gray-700'>Olá eu sou o</p>
-          <h1 className="font-poppins text-5xl font-bold">Paulo Junior 👋🏾</h1>
+          <h1 className="font-poppins text-5xl font-bold">Paulo 👋🏾</h1>
           <h2 className='font-poppins text-2xl text-gray-700'>Desenvolvedor Frontend</h2>
           <div className='flex justify-center items-center gap-4 mt-2'>
              <a href="https://github.com/pauloJ-r" target='blank'>
@@ -20,10 +19,6 @@ const Home = () => {
              <a href="https://www.linkedin.com/in/paulojr-r/" target='blank'>
              <img className="w-6 h-6" src={LinkedIn} alt="" />
              </a>
-             
-             <Button pdfLink="/src/document/PAULO CABRAL DA SILVA JUNIOR.pdf">
-              Download CV
-             </Button>
           
           </div>
           </div>
