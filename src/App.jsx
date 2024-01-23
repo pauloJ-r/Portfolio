@@ -4,7 +4,6 @@ import Home from "./assets/sections/Home";
 import About from "./assets/sections/About";
 import Projects from "./assets/sections/Projects";
 import Contact from "./assets/sections/Contact";
-import { Links } from "./assets/constants";
 
 function App() {
   const homeRef = useRef(null);
@@ -33,20 +32,19 @@ function App() {
             onContactClick={() => scrollToSection(contactRef)}
           />
         </header>
-        <main className="mt-20">
-          <section ref={homeRef} className="pt-85 h-[375px] flex flex-col items-center justify-center content-center">
+        <main>
+          <section ref={homeRef}>
             <Home />
           </section>
-          <section ref={aboutRef} className="pt-85 h-[375px] flex flex-col items-center justify-center content-center">
+          <section ref={aboutRef}>
             <About />
           </section>
-          <section ref={projectsRef} className="pt-85 h-[375px] flex flex-col items-center justify-center content-center">
+          <section ref={projectsRef} >
             <Projects />
           </section>
-          <section ref={contactRef} className="pt-85 h-[375px] flex flex-col items-center justify-center content-center">
+          <section ref={contactRef} >
             <Contact />
           </section>
-          {/* Adicione outras seções aqui, conforme necessário */}
         </main>
       </div>
     </>

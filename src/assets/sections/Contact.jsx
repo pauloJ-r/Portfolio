@@ -2,10 +2,13 @@ import React from 'react'
 import { Paulo } from '../components/image'
 const Contact = () => {
   return (
-    <div>
-      <div className="content"></div>
-      <h1 className="content-header" id="Contato">Contato</h1>
-<img src={Paulo} alt="" />
+    <div id='Contato'>
+      <div className="flex justify-center items-center py-16 pt-20 pb-[250px] bg-gray-50 min-h-screen scroll-mt-20">
+        <div className="flex items-center">
+          
+          <h1 className="content-header" >Contato</h1>
+        </div>
+      </div>
     </div>
   )
 }
