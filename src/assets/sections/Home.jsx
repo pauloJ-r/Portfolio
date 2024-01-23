@@ -16,11 +16,12 @@ const Home = () => {
              <a href="https://github.com/pauloJ-r" target='blank'>
              <img className="w-6 h-6" src={Github} alt="" />
              </a>
+             
              <a href="https://www.linkedin.com/in/paulojr-r/" target='blank'>
              <img className="w-6 h-6" src={LinkedIn} alt="" />
              </a>
              
-             <Button pdfLink="src/document/PAULO CABRAL DA SILVA JUNIOR.pdf">
+             <Button pdfLink="/src/document/PAULO CABRAL DA SILVA JUNIOR.pdf">
               Download CV
              </Button>
           
