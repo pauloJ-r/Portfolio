@@ -1,4 +1,6 @@
 import React from 'react'
+import curriculo from '../documents/CV.pdf'
+import Button from '../components/Button-indigo/Button-indigo'
 import { Paulo, Github, LinkedIn } from '../components/image'
 
 const Home = () => {
@@ -13,13 +15,17 @@ const Home = () => {
           <h2 className='font-poppins text-2xl text-gray-700'>Desenvolvedor Frontend</h2>
           <div className='flex justify-center items-center gap-4 mt-2'>
              <a href="https://github.com/pauloJ-r" target='blank'>
-             <img className="w-6 h-6" src={Github} alt="" />
+             <img className="w-8 h-8" src={Github} alt="" />
              </a>
              
              <a href="https://www.linkedin.com/in/paulojr-r/" target='blank'>
-             <img className="w-6 h-6" src={LinkedIn} alt="" />
+             <img className="w-8 h-8" src={LinkedIn} alt="" />
              </a>
-          
+             <a href={curriculo} target='blank'>
+              <Button>
+                Baixar CV
+              </Button>
+             </a>
           </div>
           </div>
           <img src={Paulo} alt="" className="rounded-full w-42 h-42 max-sm:w-52" />

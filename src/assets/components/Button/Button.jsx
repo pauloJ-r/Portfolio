@@ -1,22 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Button = (props) => {
-  const { pdfLink } = props;
-
-  // Se pdfLink estiver presente, renderiza um link; caso contrário, renderiza um botão normal
-  if (pdfLink) {
-    return (
-      <a href={pdfLink} target="_blank" rel="noopener noreferrer" className='bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 duration-500'>
-        {props.children}
-      </a>
-    );
-  } else {
-    return (
-      <button className='bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 duration-500'>
-        {props.children}
-      </button>
-    );
-  }
+  return (
+    <p className='bg-[#E7E7E7] px-4 py-2 font-mulish text-[16px] text-gray-600 font-bold rounded-lg'>
+      {props.children}
+    </p>
+  )
 }
 
-export default Button;
+export default Button
