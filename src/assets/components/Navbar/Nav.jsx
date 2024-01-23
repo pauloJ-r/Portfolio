@@ -8,10 +8,12 @@ const Nav = () => {
       <div className='md:flex items-center justify-around bg-white py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
+        <a href="#Inicio">
         <span className='text-3xl text-indigo-600 mr-1 pt-2 md:px-2 px-3'>
         <ion-icon name="code-slash-outline"></ion-icon>
         </span>
         Paulo Junior
+        </a>
       </div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
