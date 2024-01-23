@@ -1,5 +1,4 @@
 import React from 'react'
-import "./estilos.css"
 import { Paulo } from '../components/image'
 const Contact = () => {
   return (
