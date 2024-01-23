@@ -42,7 +42,7 @@ const Home = () => {
              <img className="w-8 h-8" src={LinkedIn} alt="" />
              </a>
              <a href={curriculo} target='blank'>
-              <Button>
+              <Button className="font-semibold">
                 Baixar CV
               </Button>
              </a>
