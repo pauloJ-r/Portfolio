@@ -17,6 +17,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color:rgb(79 70 229);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
+  background-color:rgb(79 70 229);    
+  border-radius: 20px;       
 }
