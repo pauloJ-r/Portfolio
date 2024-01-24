@@ -2,7 +2,7 @@ import React from 'react'
 
 const cardProjects = (props) => {
   return (
-    <div className='max-sm:flex-col max-sm:gap-8 max-sm:px-3 max-sm:py-3 max-sm:pb-16 flex justify-center items-center rounded-lg shadow-sm  px-6 py-6 border mb-4'>
+    <div className='max-sm:flex-col max-sm:gap-8 max-sm:px-3 max-sm:py-3 max-sm:pb-16 flex justify-center items-center rounded-lg shadow-sm  px-6 py-6 border mb-4 bg-white'>
         <div className='shadow-sm w-1/2 max-sm:w-full flex justify-center'>
           <img src={props.img} alt="" className='rounded-lg shadow-sm'/>
         </div>
