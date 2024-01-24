@@ -5,6 +5,9 @@ import Figma from "../../Images/logo-figma.svg";
 import Vscode from "../../Images/logo-vscode.svg"
 import Ps from "../../Images/logo-ps.png"
 import Windows from "../../Images/logo-windows.svg"
+import Termo from "../../Images/termo.jpeg"
+import Recifart from "../../Images/Recifart.svg"
+import Portifolio from "../../Images/Portfolio.svg"
 export{
     Paulo,
     Github,
@@ -13,4 +16,7 @@ export{
     Vscode,
     Ps,
     Windows,
+    Termo,
+    Recifart,
+    Portifolio,
 };

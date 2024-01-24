@@ -1,3 +1,4 @@
+import { Termo } from "../components/image";
 export let Links =[
   {id: 1,title:"Inicio"},
   {id: 2,title:"Sobre Mim"},
