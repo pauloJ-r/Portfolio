@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../components/Button-indigo/Button-indigo'
 import { LinkedIn } from '../components/image'
 const Contact = () => {
   return (

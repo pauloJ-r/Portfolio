@@ -4,6 +4,7 @@ import Home from "./assets/sections/Home";
 import About from "./assets/sections/About";
 import Projects from "./assets/sections/Projects";
 import Contact from "./assets/sections/Contact";
+import Footer from "./assets/components/Footer/Footer";
 
 function App() {
   const homeRef = useRef(null);
@@ -46,6 +47,9 @@ function App() {
             <Contact />
           </section>
         </main>
+        <footer>
+          <Footer/>
+        </footer>
       </div>
     </>
   );
