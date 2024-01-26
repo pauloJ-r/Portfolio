@@ -8,7 +8,7 @@ const Contact = () => {
           
 <          div className='flex gap-12 justify-center items-center max-sm:flex-col'>
             <div className='flex gap-3 items-center'>
-              <a className='flex gap-2 justify-center items-center px-2 py-2 rounded-full shadow-lg'href="https://www.linkedin.com/in/paulojr-r/"><img className="w-6 h-6" src={LinkedIn} alt="" />
+              <a className='flex gap-2 justify-center items-center px-2 py-2 rounded-full shadow-lg'href="https://www.linkedin.com/in/paulojr-r/" target='blank'><img className="w-6 h-6" src={LinkedIn} alt="" />
               </a>
               <p className='font-poppins text-xl text-gray-600 max-sm:text-lg'>LinkedIn</p>
               </div>
