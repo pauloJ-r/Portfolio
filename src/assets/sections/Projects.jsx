@@ -16,7 +16,7 @@ const Projects = () => {
     titulo: "Recifart",
     informacao: "Recifart é um projeto que conecta empresas a pontos de coleta e oferece um marketplace integrado para artesãos, promovendo eficiência na gestão de resíduos e ampliando a visibilidade e recursos para os criativos envolvidos.", 
     github: "https://github.com/pauloJ-r/Projeto-recifArt", 
-    demo: "https://recifart.vercel.app/" 
+    demo: "https://recifartbr.vercel.app/" 
   },
   {
     img: Portifolio,
