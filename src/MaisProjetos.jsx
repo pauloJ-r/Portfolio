@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Button from "../components/Button-indigo/Button-indigo";
-import CardProjects from '../components/cardProjects/cardProjects'
+import CardProjects from "./assets/components/cardProjects/cardProjects";
+import Button from "./assets/components/Button-indigo/Button-indigo";
 import { Link } from 'react-router-dom';
-import { Projetoinf } from '../constants'
+import { Projetoinf } from '../src/assets/constants/index'
 const MaisProjetos = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Rolagem para o topo quando o componente é montado
