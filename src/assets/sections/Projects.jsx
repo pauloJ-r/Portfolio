@@ -1,6 +1,8 @@
 import React from 'react'
 import CardProjects from '../components/cardProjects/cardProjects'
 import { Projetoinf } from '../constants'
+import Button from '../components/Button-indigo/Button-indigo'
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -11,7 +13,7 @@ const Projects = () => {
           <h1 className="font-poppins text-3xl pb-16" >Projetos</h1>
         </div>
         <div>
-        {Projetoinf.map ((card, index) => (
+        {Projetoinf.slice(0,3).map ((card, index) => (
          <CardProjects
          key={index}
          img={card.img}
@@ -22,8 +24,12 @@ const Projects = () => {
        />
         ))}
         </div>
+      <div>
+        <Button> 
+        <Link to="/MaisProjetos">Mais Projetos</Link>
+        </Button>
       </div>
-      
+      </div>
       </div>
   </>
   )
