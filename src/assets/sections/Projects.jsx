@@ -13,7 +13,7 @@ const Projects = () => {
           <h1 className="font-poppins text-3xl pb-16" >Projetos</h1>
         </div>
         <div>
-        {Projetoinf.slice(0,3).map ((card, index) => (
+        {Projetoinf.slice(0,2).map ((card, index) => (
          <CardProjects
          key={index}
          img={card.img}

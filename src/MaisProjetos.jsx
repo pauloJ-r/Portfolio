@@ -10,7 +10,7 @@ const MaisProjetos = () => {
     return (
 
         <>
-        <div className="flex w-full  p-4 bg-gray-50">
+        <div className="flex w-full  p-4 bg-gray-50 pb-10">
                     <Button>
                         <Link to="/">Voltar</Link>
                     </Button>
