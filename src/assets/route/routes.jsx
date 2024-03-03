@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Page from "../../Page";
-import MaisProjetos from "../sections/MaisProjetos";
+import MaisProjetos from "../sections/MaisProjetos.jsx";
 
 const AppRoutes = () => {
     return ( 
