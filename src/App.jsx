@@ -1,5 +1,5 @@
 import AppRoutes from "./assets/route/routes";
-import React,{ BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 const App = () => {
     return (
         <>
