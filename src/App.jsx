@@ -23,6 +23,7 @@ function App() {
   }, []);
 
   return (
+    
     <>
       <div>
         <header>
@@ -48,7 +49,7 @@ function App() {
           </section>
         </main>
         <footer>
-          <Footer/>
+          <Footer />
         </footer>
       </div>
     </>
