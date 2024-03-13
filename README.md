@@ -42,4 +42,4 @@ Para executar o projeto em sua máquina local, siga as instruções abaixo:
    ```
    npm run dev
    ```
-6. O servidor será iniciado e o jogo de caça palavras estará acessível em seu navegador através do endereço `http://localhost:5173`.
+6. O servidor será iniciado e o projeto estará acessível em seu navegador através do endereço `http://localhost:5173`.
