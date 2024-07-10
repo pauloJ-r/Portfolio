@@ -7,7 +7,7 @@ import { Paulo, Github, LinkedIn } from '../components/image'
 const Home = () => {
   useEffect(() => {
     const options = {
-      strings: ['Desenvolvedor Frontend', 'UX Design'],
+      strings: ['Desenvolvedor Web', 'UX Design'],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1500,
